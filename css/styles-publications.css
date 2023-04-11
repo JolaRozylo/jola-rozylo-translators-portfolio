@@ -1,0 +1,97 @@
+body {
+  background-image: url("../images/background_picture.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Sofia", cursive;
+  color: white;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  float: left;
+  width: 17vw;
+  border: 0.052px solid #ddd;
+  border-radius: 0.208vw;
+  padding: 0.26vw;
+}
+
+p {
+  padding-left: 3vw;
+  font-size: 1vw;
+  line-height: 1.5vw;
+}
+
+table {
+  border-spacing: 3vw;
+}
+
+#first-row {
+  text-decoration: underline;
+}
+.links {
+  text-decoration: underline;
+}
+.block-content {
+  display: inline-flex;
+  padding-top: 2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: "Courier New", Courier, monospace;
+}
+#site {
+  margin-top: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  backdrop-filter: blur(1.5rem);
+}
+#header {
+  font-weight: bold;
+  font-size: 2vw;
+  text-align: center;
+  word-spacing: 1vw;
+  padding-top: 1vw;
+}
+
+#nav {
+  font-size: 1.7vw;
+  word-spacing: 1.5vw;
+  text-align: center;
+  padding-right: 4vw;
+}
+#my-bookmarks {
+  font-size: 1vw;
+  float: right;
+}
+.fa-regular {
+  font-size: 1vw;
+  padding-top: 1vw;
+  padding-right: 1vw;
+}
+.commentPrgrf {
+  font-size: 1.2vw;
+  padding-left: 0vw;
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("images/small_screen_background_picture.png");
+  }
+}

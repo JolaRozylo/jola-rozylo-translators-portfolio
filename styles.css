@@ -1,0 +1,43 @@
+body {
+  background-image: url("images/background_picture.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f3f4f6;
+  font-family: "Sofia", cursive;
+  color: white;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+#header {
+  font-weight: bold;
+  font-size: 2vw;
+  text-align: center;
+  word-spacing: 1vw;
+  padding-top: 8vw;
+}
+
+#nav {
+  font-size: 1.7vw;
+  word-spacing: 1.5vw;
+  text-align: center;
+  padding-right: 4vw;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("images/small_screen_background_picture.png");
+  }
+}

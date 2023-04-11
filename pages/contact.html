@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/styles-contact-page.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3b7d077ef6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="site">
+      <div id="header">
+        <header><h1>Jola Rozylo</h1></header>
+      </div>
+      <div id="nav">
+        <nav>
+          <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="publications.html">publications</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="content">
+        <p><a class="links" href="https://www.linkedin.com/in/jolanta-r%C3%B3%C5%BCy%C5%82o-011943167/">LinkedIn</a></p>
+        <p><a class="links" href="https://github.com/JolaRozylo">GitHub</a></p>
+        <p>You can also contact Jola Rozylo by email at <a class="links" href="mailto:jolanta.rozylo@gmail.com">jolanta.rozylo@gmail.com</a> or simply by submitting a contact form.</p>
+        <div class="contact-form-container">
+          <form method="post" action="contact.html" id="contact-form">
+            <label for="contact">Your name</label>
+            <input type="text" name="name" placeholder="Your name..." id="contact" />
+            <br />
+            <label for="contact">Email</label>
+            <input type="text" name="email" placeholder="Your email..." id="contact" />
+            <br />
+            <label for="contact">Leave a message</label>
+            <input type="text" name="message" placeholder="Write something..." style="height: 200px" id="contact" />
+            <input class="contact-email" id="submit-form" type="submit" />
+          </form>
+        </div>
+      </div>
+      <p>If you would like to make a connection, I will be happy to contact <i>you</i> instead.<br />How would you like to be contacted:</p>
+      <input type="radio" id="by-email" name="quest-email" value="email" />
+      <label for="by-email">by email</label><br />
+      <input type="radio" id="by-phone" name="quest-phone-number" value="quest-phone-number" />
+      <label for="by-email">by phone</label>
+      <br />
+      <input class="contact-email" id="submit-button" type="submit" value="Submit" />
+    </div>
+  </body>
+</html>

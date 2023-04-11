@@ -1,0 +1,75 @@
+body {
+  background-image: url("../images/background_picture.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Sofia", cursive;
+  color: white;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  padding-left: 3vw;
+  font-size: 1.2vw;
+  line-height: 2vw;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+.quotation {
+  font-size: 0.9vw;
+  margin-left: 1.5vw;
+  margin-top: 1.5vw;
+  line-height: 1vw;
+}
+#portret {
+  width: 17vw;
+  border: 0.052px solid #ddd;
+  border-radius: 0.208vw;
+  padding: 0.26vw;
+}
+#content {
+  font-size: 0.2vw;
+  margin-bottom: 2vw;
+  display: inline-flex;
+  font-weight: lighter;
+  padding-top: 2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: "Courier New", Courier, monospace;
+}
+#site {
+  margin-top: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  backdrop-filter: blur(1.5rem);
+}
+#header {
+  font-weight: bold;
+  font-size: 2vw;
+  text-align: center;
+  word-spacing: 1vw;
+  padding-top: 1vw;
+}
+
+#nav {
+  font-size: 1.7vw;
+  word-spacing: 1.5vw;
+  text-align: center;
+  padding-right: 4vw;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("images/small_screen_background_picture.png");
+  }
+}
